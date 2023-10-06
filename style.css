@@ -1,9 +1,21 @@
-*{
+@font-face {
+    font-family: "futuro";
+    src: url(Game\ Of\ Squids.ttf);
+}
+
+*{  margin: auto;
     text-decoration: none;
+    font-family: "futuro";
 }
 
 body{
-    background-color: black;
+    background-image: url('wallpapersden.com_k-giant-robot_3840x2160.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+header{
+    padding-bottom: 50px;
 }
 .inicio{
     
@@ -11,10 +23,51 @@ body{
 }
 nav{text-align: center;
     text-align: end;
+    display: flex;
+    justify-content: end;
+
     
 }
-a{padding-left: 20px;}
+a{
+    color: rgb(0, 0, 0);
+  }
+  a:hover{
+    color: white;
+  }
 
 h1{
+    color: gray;
+}
+main{
     color: white;
+}
+img#cab{width: 100px;
+    height: 75px; ;
+    border-radius: 100%;
+}
+.principal{
+    display: flex;
+
+}
+div.principal{
+    flex-direction: column;
+}
+img{ 
+    
+    width:300px;
+    height: 300px;
+    
+}
+hr#linha2{
+    width: 250px;
+}
+.principal2{
+    text-align: center;
+} 
+footer>h1{
+    text-align: center;
+    color: #BFBFBF;
+}
+header:hover{
+    color: red;
 }
