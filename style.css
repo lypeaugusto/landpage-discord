@@ -8,10 +8,10 @@
     font-family: "futuro";
 }
 
-body{
+body{background-color: gray;
     background-image: url('wallpapersden.com_k-giant-robot_3840x2160.jpg');
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% 100%;
 
 }
 header{
@@ -21,11 +21,10 @@ header{
     
 
 }
-nav{text-align: center;
-    text-align: end;
+nav{
     display: flex;
-    justify-content: end;
-
+    justify-content: flex-end;
+    
     
 }
 a{
@@ -36,10 +35,10 @@ a{
   }
 
 h1{
-    color: gray;
+    color: rgb(202, 201, 201);
 }
 main{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 img#cab{width: 100px;
     height: 75px; ;
@@ -47,6 +46,7 @@ img#cab{width: 100px;
 }
 .principal{
     display: flex;
+    
 
 }
 div.principal{
@@ -66,8 +66,5 @@ hr#linha2{
 } 
 footer>h1{
     text-align: center;
-    color: #BFBFBF;
-}
-header:hover{
-    color: red;
+    color:  rgb(202, 201, 201);
 }
