@@ -12,18 +12,20 @@ body{background-color: gray;
     background-image: url('wallpapersden.com_k-giant-robot_3840x2160.jpg');
 background-repeat: no-repeat;
 background-size: 100% 100%;
-
+background-attachment: fixed;
+width: 100vw;
+height: 100vh;
 }
 header{
     padding-bottom: 50px;
-}
-.inicio{
+    justify-content:baseline
     
-
 }
+
+
 nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     
     
 }
@@ -53,9 +55,10 @@ div.principal{
     flex-direction: column;
 }
 img{ 
-    
+    position: relative;
     width:300px;
     height: 300px;
+    
     
 }
 hr#linha2{
@@ -64,6 +67,14 @@ hr#linha2{
 .principal2{
     text-align: center;
 } 
+
+
+footer{
+    padding-top: 10px;
+    display: block;
+
+    
+}
 footer>h1{
     text-align: center;
     color:  rgb(202, 201, 201);
